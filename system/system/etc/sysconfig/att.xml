@@ -1,0 +1,6 @@
+<config>
+    <!-- Whitelist so the app can run JobIntentService in background -->
+    <allow-in-power-save-except-idle package="com.razer.carrierentitlement" />
+    <!-- Tethering entitlement check app should have Internet access while in data saving mode, even if they're in background. -->
+    <allow-in-data-usage-save package="com.razer.carrierentitlement" />
+</config>
